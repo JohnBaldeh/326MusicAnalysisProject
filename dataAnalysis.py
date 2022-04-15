@@ -1,4 +1,4 @@
-import pandas
+import pandas as pd
 
 
 df_origin = pd.read_csv(“txtfilename.csv”)
