@@ -1,5 +1,3 @@
-print("Hello")
-
 import pandas
 
 df_origin = pd.read_csv(“txtfilename.csv”)
@@ -31,3 +29,4 @@ For index_dance in df_dance
 """
 	if song is in dance genre df, add “Dance” to “Genre” column
 """
+print("Hello")
