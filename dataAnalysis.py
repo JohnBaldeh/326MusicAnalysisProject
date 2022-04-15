@@ -5,10 +5,10 @@ df_origin = pd.read_csv(“txtfilename.csv”)
 genre = []
 df_origin[‘Genre’] genre
 
-df_country = pd.read_csv(“country.csv”)
-df_pop = pd.read_csv(“pop.csv”)
-df_hipHopRap = pd.read_csv(“hipHopRap.csv”)
-df_dance = pd.read_csv(“dance.csv”)
+df_country = pd.read_csv('country.csv')
+df_pop = pd.read_csv('pop.csv')
+df_hipHopRap = pd.read_csv('hipHopRap.csv')
+df_dance = pd.read_csv('dance.csv')
 
 #First, we will import the pandas library for functionality to reach our program. Then we will create a data frame that reads the CSV file and saves its columns as keys. 
 
