@@ -12,21 +12,23 @@ df_dance = pd.read_csv('dance.csv')
 
 #First, we will import the pandas library for functionality to reach our program. Then we will create a data frame that reads the CSV file and saves its columns as keys. 
 
-for index in df_origin
-	for index_country in df_country
-"""    
-		if song isin country genre df, add ‘Country’ to ‘Genre’ column
-"""        
-	for index_pop in df_pop
-"""    
-		if song isin pop genre df, add “Pop” to “Genre” column
-"""
-	for index_hipHopRap in df_hipHopRap 
-"""    
-		if song isin hip-hop/rap genre df, add “Hip-Hop/Rap” to “Genre” column
-"""
 
-	for index_dance in df_dance 
-"""
-	if song isin dance genre df, add “Dance” to “Genre” column
-"""
+def genreCheck(coutryTopSongs, genreCountry, genrePop, genreHipHopRap, genreDance) :
+
+	for index in df_origin
+		for index_country in df_country
+	"""
+			if song isin country genre df, add ‘Country’ to ‘Genre’ column
+	"""
+		for index_pop in df_pop
+	"""    
+			if song isin pop genre df, add “Pop” to “Genre” column
+	"""
+		for index_hipHopRap in df_hipHopRap
+	"""    
+			if song isin hip-hop/rap genre df, add “Hip-Hop/Rap” to “Genre” column
+	"""
+		for index_dance in df_dance
+	"""
+			if song isin dance genre df, add “Dance” to “Genre” column
+	"""
