@@ -13,7 +13,7 @@ df_dance = pd.read_csv('dance.csv')
 #First, we will import the pandas library for functionality to reach our program. Then we will create a data frame that reads the CSV file and saves its columns as keys. 
 
 
-def genreCheck(coutryTopSongs, genreCountry, genrePop, genreHipHopRap, genreDance) :
+def genreCheck(countryTopSongs, genreCountry, genrePop, genreHipHopRap, genreDance) :
 
 	for index in df_origin
 		for index_country in df_country
