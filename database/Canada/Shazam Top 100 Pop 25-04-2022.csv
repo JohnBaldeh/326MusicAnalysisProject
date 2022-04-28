@@ -1,103 +1,101 @@
-﻿Shazam Top 100 Pop
-"Monday, 25 April 2022 [performance over the past 7 days]"
-Rank,Artist,Title
-1,"Camila Cabello Feat. Ed Sheeran","Bam Bam"
-2,"Harry Styles","As It Was"
-3,"Lauren Spencer-Smith","Fingers Crossed"
-4,"Tate McRae","she's all i wanna be"
-5,"Elton John & Dua Lipa","Cold Heart (PNAU Remix)"
-6,"Mark Morrison","Return Of The Mack"
-7,"Banx & Ranx & Rêve","Headphones"
-8,"Doja Cat","Woman"
-9,"Annie Lennox","Walking On Broken Glass"
-10,"Pitbull Feat. Anthony Watts & DJWS","I Feel Good"
-11,"Shawn Mendes","When You're Gone (Acoustic)"
-12,"Lil Nas X","THATS WHAT I WANT"
-13,"Lizzo","About Damn Time"
-14,"5 Seconds of Summer","COMPLETE MESS"
-15,"Em Beihold","Numb Little Bug"
-16,"Ed Sheeran","Shivers"
-17,"Harry Styles","Adore You"
-18,"Justin Bieber","Ghost"
-19,"GAYLE","abcdefu"
-20,"Roxane Filion","Au temps qui ne revient plus"
-21,"Megan Thee Stallion & Dua Lipa","Sweetest Pie"
-22,"Ed Sheeran","Bad Habits"
-23,"Dove Cameron","Boyfriend"
-24,"Charlie Puth","Light Switch"
-25,"Demi Lovato","Cool For The Summer"
-26,"The Kid LAROI & Justin Bieber","Stay"
-27,"Elley Duhé","MIDDLE OF THE NIGHT"
-28,"Marshmello & Jonas Brothers","Leave Before You Love Me"
-29,"Tom Odell","Another Love"
-30,"Wande Coal & DJ Tunez","Iskaba"
-31,"COIN","Chapstick"
-32,"INXS","Never Tear Us Apart"
-33,"Engelbert Humperdinck","A Man Without Love"
-34,"Nicky Youre & Dazy","Sunroof"
-35,"The Kid LAROI","Thousand Miles"
-36,"Alyssa Reid","roses"
-37,"Ed Sheeran","Overpass Graffiti"
-38,"The Chainsmokers","High"
-39,"Kygo Feat. DNCE","Dancing Feet"
-40,"Fefe Dobson","FCKN IN LOVE"
-41,"victoria","Closer (Vol.1 Ch.1)"
-42,"Orla Gartland","Why Am I Like This?"
-43,"The Goo Goo Dolls","Iris"
-44,"Lauren Spencer-Smith","Flowers"
-45,"Adele","Oh My God"
-46,"BoyWithUke","Toxic"
-47,"Tyler Shaw","Love You Still (abcdefu romantic version)"
-48,"Ed Sheeran","2step"
-49,"Steve Horner","Sign of the Times (Stripped)"
-50,"Lit","My Own Worst Enemy"
-51,"Nelly Furtado","Say It Right"
-52,"Tones And I","Dance Monkey"
-53,"Leah Kate","10 Things I Hate About You"
-54,"Daft Punk Feat. Pharrell Williams","Get Lucky"
-55,"Dua Lipa Feat. DaBaby","Levitating"
-56,"Olivia Rodrigo","good 4 u"
-57,"Passenger","Let Her Go"
-58,"Juice Newton","Angel Of The Morning"
-59,"The Outfield","Your Love"
-60,"Maroon 5 Feat. Wiz Khalifa","Payphone"
-61,"Usher Feat. Lil' Jon & Ludacris","Yeah!"
-62,"Fleetwood Mac","Dreams"
-63,"Miley Cyrus","Malibu"
-64,"Aaron Smith Feat. Luvli","Dancin (Krono Remix)"
-65,"Issam Alnajjar, Loud Luxury & Ali Gatie","Turning Me Up (Hadal Ahbek)"
-66,"Eurythmics","Sweet Dreams (Are Made Of This)"
-67,"Justin Timberlake Feat. Timbaland","Sexyback"
-68,"Sia","Unstoppable"
-69,"Doja Cat Feat. SZA","Kiss Me More"
-70,"Adele","Easy On Me"
-71,"Phil Collins","In The Air Tonight"
-72,"Pitbull Feat. Ne-Yo & Afrojack & Nayer","Give Me Everything"
-73,"Avicii","Wake Me Up"
-74,"Labrinth","Mount Everest"
-75,"OneRepublic","Counting Stars"
-76,"La Bouche","Be My Lover"
-77,"Ed Sheeran Feat. Taylor Swift","The Joker And The Queen"
-78,"Depeche Mode","Personal Jesus"
-79,"NEIKED & Mae Muller Feat. Polo G","Better Days"
-80,"Doja Cat & The Weeknd","You Right"
-81,"MacKenzie Porter","These Days (Remix)"
-82,"Tiësto","The Business"
-83,"Tyler Shaw","I See You"
-84,"Fleetwood Mac","The Chain"
-85,"Earth, Wind & Fire","September"
-86,"Ava Max","Kings & Queens"
-87,"Dua Lipa","Don't Start Now"
-88,"Tate McRae","you broke me first"
-89,"Milky Chance","Stolen Dance"
-90,"Mac Miller","The Spins"
-91,"Sia","Cheap Thrills"
-92,"OutKast","Hey Ya!"
-93,"Madonna & Sickick","Frozen"
-94,"A-Ha","Take On Me"
-95,"JAY-Z Feat. Beyoncé Knowles","03' Bonnie & Clyde"
-96,"Alicia Moffet","Lullaby"
-97,"Maroon 5 & Megan Thee Stallion","Beautiful Mistakes"
-98,"Jay Scøtt","Broken (Radio Edit)"
-99,"Empire Of The Sun","Walking On A Dream"
-100,"Haddaway","What Is Love"
+﻿Rank,Artist,Title,
+1,Camila Cabello Feat. Ed Sheeran,Bam Bam,
+2,Harry Styles,As It Was,Genre
+3,Lauren Spencer-Smith,Fingers Crossed,
+4,Tate McRae,she's all i wanna be,
+5,Elton John & Dua Lipa,Cold Heart (PNAU Remix),
+6,Mark Morrison,Return Of The Mack,
+7,Banx & Ranx & Rêve,Headphones,
+8,Doja Cat,Woman,
+9,Annie Lennox,Walking On Broken Glass,
+10,Pitbull Feat. Anthony Watts & DJWS,I Feel Good,
+11,Shawn Mendes,When You're Gone (Acoustic),
+12,Lil Nas X,THATS WHAT I WANT,
+13,Lizzo,About Damn Time,
+14,5 Seconds of Summer,COMPLETE MESS,
+15,Em Beihold,Numb Little Bug,
+16,Ed Sheeran,Shivers,
+17,Harry Styles,Adore You,
+18,Justin Bieber,Ghost,
+19,GAYLE,abcdefu,
+20,Roxane Filion,Au temps qui ne revient plus,
+21,Megan Thee Stallion & Dua Lipa,Sweetest Pie,
+22,Ed Sheeran,Bad Habits,
+23,Dove Cameron,Boyfriend,
+24,Charlie Puth,Light Switch,
+25,Demi Lovato,Cool For The Summer,
+26,The Kid LAROI & Justin Bieber,Stay,
+27,Elley Duhé,MIDDLE OF THE NIGHT,
+28,Marshmello & Jonas Brothers,Leave Before You Love Me,
+29,Tom Odell,Another Love,
+30,Wande Coal & DJ Tunez,Iskaba,
+31,COIN,Chapstick,
+32,INXS,Never Tear Us Apart,
+33,Engelbert Humperdinck,A Man Without Love,
+34,Nicky Youre & Dazy,Sunroof,
+35,The Kid LAROI,Thousand Miles,
+36,Alyssa Reid,roses,
+37,Ed Sheeran,Overpass Graffiti,
+38,The Chainsmokers,High,
+39,Kygo Feat. DNCE,Dancing Feet,
+40,Fefe Dobson,FCKN IN LOVE,
+41,victoria,Closer (Vol.1 Ch.1),
+42,Orla Gartland,Why Am I Like This?,
+43,The Goo Goo Dolls,Iris,
+44,Lauren Spencer-Smith,Flowers,
+45,Adele,Oh My God,
+46,BoyWithUke,Toxic,
+47,Tyler Shaw,Love You Still (abcdefu romantic version),
+48,Ed Sheeran,2step,
+49,Steve Horner,Sign of the Times (Stripped),
+50,Lit,My Own Worst Enemy,
+51,Nelly Furtado,Say It Right,
+52,Tones And I,Dance Monkey,
+53,Leah Kate,10 Things I Hate About You,
+54,Daft Punk Feat. Pharrell Williams,Get Lucky,
+55,Dua Lipa Feat. DaBaby,Levitating,
+56,Olivia Rodrigo,good 4 u,
+57,Passenger,Let Her Go,
+58,Juice Newton,Angel Of The Morning,
+59,The Outfield,Your Love,
+60,Maroon 5 Feat. Wiz Khalifa,Payphone,
+61,Usher Feat. Lil' Jon & Ludacris,Yeah!,
+62,Fleetwood Mac,Dreams,
+63,Miley Cyrus,Malibu,
+64,Aaron Smith Feat. Luvli,Dancin (Krono Remix),
+65,"Issam Alnajjar, Loud Luxury & Ali Gatie",Turning Me Up (Hadal Ahbek),
+66,Eurythmics,Sweet Dreams (Are Made Of This),
+67,Justin Timberlake Feat. Timbaland,Sexyback,
+68,Sia,Unstoppable,
+69,Doja Cat Feat. SZA,Kiss Me More,
+70,Adele,Easy On Me,
+71,Phil Collins,In The Air Tonight,
+72,Pitbull Feat. Ne-Yo & Afrojack & Nayer,Give Me Everything,
+73,Avicii,Wake Me Up,
+74,Labrinth,Mount Everest,
+75,OneRepublic,Counting Stars,
+76,La Bouche,Be My Lover,
+77,Ed Sheeran Feat. Taylor Swift,The Joker And The Queen,
+78,Depeche Mode,Personal Jesus,
+79,NEIKED & Mae Muller Feat. Polo G,Better Days,
+80,Doja Cat & The Weeknd,You Right,
+81,MacKenzie Porter,These Days (Remix),
+82,Tiësto,The Business,
+83,Tyler Shaw,I See You,
+84,Fleetwood Mac,The Chain,
+85,"Earth, Wind & Fire",September,
+86,Ava Max,Kings & Queens,
+87,Dua Lipa,Don't Start Now,
+88,Tate McRae,you broke me first,
+89,Milky Chance,Stolen Dance,
+90,Mac Miller,The Spins,
+91,Sia,Cheap Thrills,
+92,OutKast,Hey Ya!,
+93,Madonna & Sickick,Frozen,
+94,A-Ha,Take On Me,
+95,JAY-Z Feat. Beyoncé Knowles,03' Bonnie & Clyde,
+96,Alicia Moffet,Lullaby,
+97,Maroon 5 & Megan Thee Stallion,Beautiful Mistakes,
+98,Jay Scøtt,Broken (Radio Edit),
+99,Empire Of The Sun,Walking On A Dream,
+100,Haddaway,What Is Love,

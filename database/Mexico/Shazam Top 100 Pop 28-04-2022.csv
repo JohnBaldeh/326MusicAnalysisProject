@@ -1,103 +1,101 @@
-﻿Shazam Top 100 Pop
-"Thursday, 28 April 2022 [performance over the past 7 days]"
-Rank,Artist,Title
-1,"Harry Styles","As It Was"
-2,"Polimá Westcoast & Pailita","ULTRA SOLO"
-3,"JVKE","this is what falling in love feels like"
-4,"Elton John & Dua Lipa","Cold Heart (PNAU Remix)"
-5,"Camila Cabello Feat. Ed Sheeran","Bam Bam"
-6,"Engelbert Humperdinck","A Man Without Love"
-7,"Demi Lovato","Cool For The Summer"
-8,"Paloma Faith","Only Love Can Hurt Like This (Slowed Down Version)"
-9,"Bruno Mars","Locked Out Of Heaven"
-10,"Elley Duhé","MIDDLE OF THE NIGHT"
-11,"Michael Bublé","Sway"
-12,"Orla Gartland","Why Am I Like This?"
-13,"GAYLE","abcdefu"
-14,"INXS","Never Tear Us Apart"
-15,"Funk Brasil Mix","Vai Malandra"
-16,"Daft Punk Feat. Pharrell Williams","Get Lucky"
-17,"Icona Pop Feat. Charli XCX","I Love It"
-18,"Capital Cities","Safe And Sound"
-19,"Tom Odell","Another Love"
-20,"Lykke Li","I Follow Rivers (The Magician Remix)"
-21,"Harry Styles","Sign Of The Times"
-22,"Nelly Furtado","Say It Right"
-23,"Joy Crookes","Feet Don't Fail Me Now"
-24,"Santiago Novello","Cayo la Noche X Diles X Soy Peor (Mashup)"
-25,"Mark Ronson Feat. Miley Cyrus","Nothing Breaks Like A Heart"
-26,"Paloma Faith","Only Love Can Hurt Like This"
-27,"ABBA","Gimme! Gimme! Gimme! (A Man After Midnight)"
-28,"Labrinth","Mount Everest"
-29,"Marshmello & Jonas Brothers","Leave Before You Love Me"
-30,"Shawn Mendes","There's Nothing Holdin' Me Back"
-31,"The Outfield","Your Love"
-32,"Adele","Oh My God"
-33,"Olivia Rodrigo","drivers license"
-34,"Laura Branigan","Self Control"
-35,"Milky Chance","Stolen Dance"
-36,"The Black Eyed Peas","I Gotta Feeling"
-37,"Coldplay & Selena Gomez","Let Somebody Go"
-38,"Dido","Thank You"
-39,"The Kid LAROI & Justin Bieber","Stay"
-40,"J.J. Abel, Daniel Rondon & Kuinvi","Dos Horas"
-41,"Ed Sheeran","Bad Habits"
-42,"Charlie Puth","Light Switch"
-43,"Doja Cat Feat. SZA","Kiss Me More"
-44,"Maroon 5","Misery"
-45,"Bruno Mars","When I Was Your Man"
-46,"Oskar Cyms","My Girl"
-47,"BoyWithUke","Toxic"
-48,"Aaron Smith Feat. Luvli","Dancin (Krono Remix)"
-49,"Boney M.","Rasputin"
-50,"Ed Sheeran","Perfect"
-51,"Los Elegantes de Jerez","Tú"
-52,"Backstreet Boys","Everybody (Backstreet's Back)"
-53,"Leo Rizzi","Amapolas"
-54,"A-Ha","Take On Me"
-55,"Starship","Nothing's Gonna Stop Us Now"
-56,"Edward Maya & Vika Jigulina","Stereo Love"
-57,"Sam Smith","I Feel Love"
-58,"ABBA","Dancing Queen"
-59,"Rod Stewart","Da Ya Think I'm Sexy?"
-60,"Coldplay & BTS","My Universe"
-61,"Passenger","Let Her Go"
-62,"Girl In Red","Girls"
-63,"Adele","Easy On Me"
-64,"Ed Sheeran","Photograph"
-65,"Sia","Unstoppable"
-66,"Omi","Cheerleader (Felix Jaehn Remix Radio Edit)"
-67,"La Bien Querida","Resistiré (Banda Sonora Original "Élite")"
-68,"Maroon 5","Maps"
-69,"EMO & Marissa","365 Days"
-70,"t.A.T.u.","All The Things She Said"
-71,"F.R. David","Words"
-72,"Maná & Christian Nodal","Te Lloré Un Río"
-73,"Faultyy","Give Me Everything (instrumental + sped up)"
-74,"Scatman John & Lou Bega","Scatman & Hatman (The Editz Radio Mix)"
-75,"Keane","Somewhere Only We Know"
-76,"Surf Curse","Freaks"
-77,"Pitbull Feat. Ne-Yo & Afrojack & Nayer","Give Me Everything"
-78,"Adexe & Nau","Diferente"
-79,"Dove Cameron","Boyfriend"
-80,"Dua Lipa Feat. DaBaby","Levitating"
-81,"Maroon 5 Feat. Wiz Khalifa","Payphone"
-82,"Alexander Rybak","Fairytale"
-83,"Ellie Goulding","Love Me Like You Do"
-84,"Eurythmics","Sweet Dreams (Are Made Of This)"
-85,"Morten Harket","Can't Take My Eyes Off You"
-86,"Boney M.","Rivers Of Babylon"
-87,"J.J. Abel Feat. Carla Fernandes","Mi Amor"
-88,"Mark Ronson Feat. Bruno Mars","Uptown Funk"
-89,"Adele","Rolling In The Deep"
-90,"Tones And I","Dance Monkey"
-91,"AURORA","Runaway"
-92,"Dua Lipa","Don't Start Now"
-93,"One Direction","End Of The Day"
-94,"Dr. Alban","It's My Life"
-95,"Daft Punk Feat. Julian Casablancas","Instant Crush"
-96,"The Goo Goo Dolls","Iris"
-97,"Billy Ocean","Caribbean Queen (No More Love On The Run)"
-98,"Morat","No Se Va"
-99,"Justin Bieber Feat. Daniel Caesar & GIVĒON","Peaches"
-100,"Sam Smith","I'm Not The Only One"
+﻿Rank,Artist,Title,
+1,Harry Styles,As It Was,
+2,Polimá Westcoast & Pailita,ULTRA SOLO,Genre
+3,JVKE,this is what falling in love feels like,
+4,Elton John & Dua Lipa,Cold Heart (PNAU Remix),
+5,Camila Cabello Feat. Ed Sheeran,Bam Bam,
+6,Engelbert Humperdinck,A Man Without Love,
+7,Demi Lovato,Cool For The Summer,
+8,Paloma Faith,Only Love Can Hurt Like This (Slowed Down Version),
+9,Bruno Mars,Locked Out Of Heaven,
+10,Elley Duhé,MIDDLE OF THE NIGHT,
+11,Michael Bublé,Sway,
+12,Orla Gartland,Why Am I Like This?,
+13,GAYLE,abcdefu,
+14,INXS,Never Tear Us Apart,
+15,Funk Brasil Mix,Vai Malandra,
+16,Daft Punk Feat. Pharrell Williams,Get Lucky,
+17,Icona Pop Feat. Charli XCX,I Love It,
+18,Capital Cities,Safe And Sound,
+19,Tom Odell,Another Love,
+20,Lykke Li,I Follow Rivers (The Magician Remix),
+21,Harry Styles,Sign Of The Times,
+22,Nelly Furtado,Say It Right,
+23,Joy Crookes,Feet Don't Fail Me Now,
+24,Santiago Novello,Cayo la Noche X Diles X Soy Peor (Mashup),
+25,Mark Ronson Feat. Miley Cyrus,Nothing Breaks Like A Heart,
+26,Paloma Faith,Only Love Can Hurt Like This,
+27,ABBA,Gimme! Gimme! Gimme! (A Man After Midnight),
+28,Labrinth,Mount Everest,
+29,Marshmello & Jonas Brothers,Leave Before You Love Me,
+30,Shawn Mendes,There's Nothing Holdin' Me Back,
+31,The Outfield,Your Love,
+32,Adele,Oh My God,
+33,Olivia Rodrigo,drivers license,
+34,Laura Branigan,Self Control,
+35,Milky Chance,Stolen Dance,
+36,The Black Eyed Peas,I Gotta Feeling,
+37,Coldplay & Selena Gomez,Let Somebody Go,
+38,Dido,Thank You,
+39,The Kid LAROI & Justin Bieber,Stay,
+40,"J.J. Abel, Daniel Rondon & Kuinvi",Dos Horas,
+41,Ed Sheeran,Bad Habits,
+42,Charlie Puth,Light Switch,
+43,Doja Cat Feat. SZA,Kiss Me More,
+44,Maroon 5,Misery,
+45,Bruno Mars,When I Was Your Man,
+46,Oskar Cyms,My Girl,
+47,BoyWithUke,Toxic,
+48,Aaron Smith Feat. Luvli,Dancin (Krono Remix),
+49,Boney M.,Rasputin,
+50,Ed Sheeran,Perfect,
+51,Los Elegantes de Jerez,Tú,
+52,Backstreet Boys,Everybody (Backstreet's Back),
+53,Leo Rizzi,Amapolas,
+54,A-Ha,Take On Me,
+55,Starship,Nothing's Gonna Stop Us Now,
+56,Edward Maya & Vika Jigulina,Stereo Love,
+57,Sam Smith,I Feel Love,
+58,ABBA,Dancing Queen,
+59,Rod Stewart,Da Ya Think I'm Sexy?,
+60,Coldplay & BTS,My Universe,
+61,Passenger,Let Her Go,
+62,Girl In Red,Girls,
+63,Adele,Easy On Me,
+64,Ed Sheeran,Photograph,
+65,Sia,Unstoppable,
+66,Omi,Cheerleader (Felix Jaehn Remix Radio Edit),
+67,La Bien Querida,"Resistiré (Banda Sonora Original Élite"")""",
+68,Maroon 5,Maps,
+69,EMO & Marissa,365 Days,
+70,t.A.T.u.,All The Things She Said,
+71,F.R. David,Words,
+72,Maná & Christian Nodal,Te Lloré Un Río,
+73,Faultyy,Give Me Everything (instrumental + sped up),
+74,Scatman John & Lou Bega,Scatman & Hatman (The Editz Radio Mix),
+75,Keane,Somewhere Only We Know,
+76,Surf Curse,Freaks,
+77,Pitbull Feat. Ne-Yo & Afrojack & Nayer,Give Me Everything,
+78,Adexe & Nau,Diferente,
+79,Dove Cameron,Boyfriend,
+80,Dua Lipa Feat. DaBaby,Levitating,
+81,Maroon 5 Feat. Wiz Khalifa,Payphone,
+82,Alexander Rybak,Fairytale,
+83,Ellie Goulding,Love Me Like You Do,
+84,Eurythmics,Sweet Dreams (Are Made Of This),
+85,Morten Harket,Can't Take My Eyes Off You,
+86,Boney M.,Rivers Of Babylon,
+87,J.J. Abel Feat. Carla Fernandes,Mi Amor,
+88,Mark Ronson Feat. Bruno Mars,Uptown Funk,
+89,Adele,Rolling In The Deep,
+90,Tones And I,Dance Monkey,
+91,AURORA,Runaway,
+92,Dua Lipa,Don't Start Now,
+93,One Direction,End Of The Day,
+94,Dr. Alban,It's My Life,
+95,Daft Punk Feat. Julian Casablancas,Instant Crush,
+96,The Goo Goo Dolls,Iris,
+97,Billy Ocean,Caribbean Queen (No More Love On The Run),
+98,Morat,No Se Va,
+99,Justin Bieber Feat. Daniel Caesar & GIVĒON,Peaches,
+100,Sam Smith,I'm Not The Only One,
