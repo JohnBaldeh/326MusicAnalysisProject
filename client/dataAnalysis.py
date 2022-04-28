@@ -1,5 +1,5 @@
 import pandas as pd
-import database
+from database import Canada, Mexico, United_States
 
 
 # df_origin = pd.read_csv("database/United_States/Shazam_Top_200_United_States_Chart_25-04-2022.csv")
@@ -51,14 +51,13 @@ def genreCheck(countryTopSongs, genreCountry, genrePop, genreHipHopRap, genreDan
 
 def main() :
 
-	df_origin = pd.read_csv('/Shazam_Top_200_United_States_Chart_25-04-2022.csv')
-	# genre = []
+	df_origin = pd.read_csv('database/United_States/Shazam_Top_200_United_States_Chart_25-04-2022.csv')
 
 	df_country = pd.read_csv('database/United_States/Shazam_Top_100_Country_25-04-2022.csv')
 	df_pop = pd.read_csv("database/United_States/Shazam_Top_100_Pop_25-04-2022.csv")
 	df_hipHopRap = pd.read_csv("database/United_States/Shazam_Top_100_Hip-Hop_Rap_25-04-2022.csv")
 	df_dance = pd.read_csv("database/United_States/Shazam_Top_100_Dance_25-04-2022.csv")
 
-	print(df_origin)
+	df_origin.to_csv('C:\Users\Tech\Desktop\INST326\landing_strip\demo.csv')
 
 	# genreCheck(df_origin, df_country, df_pop, df_hipHopRap, df_dance)
