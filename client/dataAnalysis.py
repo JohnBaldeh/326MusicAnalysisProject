@@ -53,7 +53,6 @@ def main() :
 
 	df_origin = pd.read_csv('/Shazam_Top_200_United_States_Chart_25-04-2022.csv')
 	# genre = []
-	# df_origin['Genre'] = genre
 
 	df_country = pd.read_csv('database/United_States/Shazam_Top_100_Country_25-04-2022.csv')
 	df_pop = pd.read_csv("database/United_States/Shazam_Top_100_Pop_25-04-2022.csv")
