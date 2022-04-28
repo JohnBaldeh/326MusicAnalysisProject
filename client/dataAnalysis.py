@@ -35,21 +35,29 @@ def genreCheck(countryTopSongs, genreCountry, genrePop, genreHipHopRap, genreDan
 		else :
 			pass
 
+
+	# FOR FIRST: use current row's songname for rowIndex, and "Title" as colIndex
+	# FOR DF_ORIGIN: use current row's songname for rowIndex, and "Title" as colIndex
+	if(( df_origin.iloc[rowIndex, colIndex].isin( ) and df_origin.iloc[rowIndex, colIndex] )
+
+
+
 	print(df_origin)
+
 
 # FOR TESTING. REPLACE FUNCTIONALITY WITH if __name__ == "__main__" FUNCTION
 
 def main() :
 
-	df_origin = pd.read_csv("database/United_States/Shazam_Top_200_United_States_Chart_25-04-2022.csv")
-	genre = []
-	df_origin['Genre'] = genre
+	df_origin = pd.read_csv("..database/United_States/Shazam_Top_200_United_States_Chart_25-04-2022")
+	# genre = []
+	# df_origin['Genre'] = genre
 
 	df_country = pd.read_csv('database/United_States/Shazam_Top_100_Country_25-04-2022.csv')
 	df_pop = pd.read_csv("database/United_States/Shazam_Top_100_Pop_25-04-2022.csv")
 	df_hipHopRap = pd.read_csv("database/United_States/Shazam_Top_100_Hip-Hop_Rap_25-04-2022.csv")
 	df_dance = pd.read_csv("database/United_States/Shazam_Top_100_Dance_25-04-2022.csv")
 
-	print(df_country)
+	df_origin.to_csv(str("test"))
 
-	genreCheck(df_origin, df_country, df_pop, df_hipHopRap, df_dance)
+	# genreCheck(df_origin, df_country, df_pop, df_hipHopRap, df_dance)
