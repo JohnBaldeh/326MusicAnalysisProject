@@ -1,5 +1,4 @@
 import pandas as pd
-from database import Canada, Mexico, United_States
 
 
 # df_origin = pd.read_csv("database/United_States/Shazam_Top_200_United_States_Chart_25-04-2022.csv")
