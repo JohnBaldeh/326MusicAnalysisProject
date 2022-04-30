@@ -1,7 +1,5 @@
-import csv
 import pandas as pd
 import seaborn as sns # imports db that you will be using
-from database import Canada, Mexico, United_States
 
 
 #df_origin = sns.load_dataset("tips") # requests dataset "tips" from the library
