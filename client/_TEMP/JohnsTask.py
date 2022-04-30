@@ -22,7 +22,7 @@ df_origin.loc[[0,2,8], :]
 
 
 """
-This shows the  labels rows that you want to select
+This shows the labels rows that you want to select
 .loc() compares selected rows against selected columns, 
 rows on the left, columns on the right
 
