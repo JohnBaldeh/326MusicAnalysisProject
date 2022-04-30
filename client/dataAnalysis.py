@@ -23,15 +23,10 @@ def genreCheck(df_origin, df_country, df_pop, df_hipHopRap, df_dance) :
 			pass
 
 
-	# FOR FIRST: use current row's songname for rowIndex, and "Title" as colIndex
-	# FOR DF_ORIGIN: use current row's songname for rowIndex, and "Title" as colIndex
-	# if(( df_origin.iloc[rowIndex, colIndex].isin( ) and df_origin.iloc[rowIndex, colIndex] ))
-
-
-
+	# change to return, or have this passed to visualization.py later.
 	print(df_origin)
 
-	# pass
+
 
 # FOR TESTING. REPLACE FUNCTIONALITY WITH if __name__ == "__main__" FUNCTION
 
