@@ -5,7 +5,7 @@ def genreCheck(df_origin, df_country, df_pop, df_hipHopRap, df_dance) :
 	for row in df_origin.iterrows() :
 		if (df_origin.loc[row, {"Artist", "Title"}].isin(df_country)) :
 			# add 'Country' to df column: Genre. delete pass when implemented
-			df_origin.loc[row, "Genre"] = "Country"
+			df_origin.loc[row, "Genre"] = 'Country'
 
 		elif (df_origin.loc[row, {"Artist", "Title"}].isin(df_pop)) :
 			# add 'Pop' to df column: Genre. delete pass when implemented
