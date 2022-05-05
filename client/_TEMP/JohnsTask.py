@@ -1,66 +1,78 @@
 import pandas as pd
-import seaborn as sns # imports db that you will be using
+import os
 
+# get current working directory
+working_dir = os.path.dirname(__file__)
 
-#df_origin = sns.load_dataset("tips") # requests dataset "tips" from the library
+# read csv files with all 200 songs for each country and store in array
+canada_songs = pd.read_csv(os.path.join(working_dir, "../database/Canada/Shazam Top 100 Dance 25-04-2022.csv"))
+mexico_songs = pd.read_csv(os.path.join(working_dir, "../database/Mexico/Shazam Top 200 Mexico Chart 25-04-2022.csv"))
+united_states_songs = pd.read_csv(os.path.join(working_dir, "../database/United_States/Shazam_Top_200_United_States_Chart_25-04-2022.csv"))
+countries = [canada_songs, mexico_songs, united_states_songs]
 
-#change directory
-df_origin = pd.read_csv('database/United_States/Shazam_Top_200_United_States_Chart_25-04-2022.csv')
+# list all genres in each country with the pathname to the csv files with their songs
+canada_genres = {
+    "Dance": os.path.join(working_dir, "../database/Canada/Shazam Top 100 Dance 25-04-2022.csv"),
+    "Hip-Hop Rap": os.path.join(working_dir, "../database/Canada/Shazam Top 100 Hip-Hop_Rap 25-04-2022.csv"),
+    "Pop": os.path.join(working_dir, "../database/Canada/Shazam Top 100 Pop 25-04-2022.csv")
+}
 
+mexico_genres = {
+    "Dance": os.path.join(working_dir, "../database/Mexico/Shazam Top 100 Dance 28-04-2022.csv"),
+    "Hip-Hop Rap": os.path.join(working_dir, "../database/Mexico/Shazam Top 100 Hip-Hop_Rap 28-04-2022.csv"),
+    "Pop": os.path.join(working_dir, "../database/Mexico/Shazam Top 100 Pop 28-04-2022.csv")
+}
 
-df_origin.head(10) 
+united_states = {
+    "Dance": os.path.join(working_dir, "../database/United_States/Shazam_Top_100_Dance_25-04-2022.csv"),
+    "Hip-Hop Rap": os.path.join(working_dir, "../database/United_States/Shazam_Top_100_Hip-Hop_Rap_25-04-2022.csv"),
+    "Pop": os.path.join(working_dir, "../database/United_States/Shazam_Top_100_Pop_25-04-2022.csv"),
+    "Country": os.path.join(working_dir, "../database/United_States/Shazam_Top_100_Country_25-04-2022.csv"),
+}
 
-#print(df_origin)
+# store all country genres in array
+country_genres = [canada_genres, mexico_genres, united_states]
 
-"""
-# 10 indicates that data fetched is in the first 10 rows 
-# head() is used to indicate the headings of the columns' output
-"""
+# store country name in array to find sub-folders to store results later
+country_name = ["Canada", "Mexico", "United_States"]
 
-df_origin.loc[[0,2,8], :] 
-#print(df_origin)
+# start iteration at Canada (index 0)
+index = 0
+for country in countries:
+    # get only Artist and Title columns
+    main_extract = country.loc[:, ["Artist", "Title"]]
 
+    # get list of genres of that country from the genres array
+    genres = country_genres[index]
 
-"""
-This shows the labels rows that you want to select
-.loc() compares selected rows against selected columns, 
-rows on the left, columns on the right
+    # new array with second dimension of "Artists", "Title" , "Genre" to store values
+    new_array = [[], [], []]
 
-colon is used to separate the rows and the columns being fetched.
+    # iterate through all songs in "200 songs" csv file
+    for song in main_extract.values:
 
-Run code - it should bring an output of only the rows that you have chosen.
-"""
+        # iterate through all csv files in each genre
+        for genre_name, file_name in genres.items():
 
-df_origin.loc[0:4, :]
-#print(df_origin)
+            # extract only artist and title
+            genre_extract = pd.read_csv(file_name).loc[:, ["Artist", "Title"]]
 
-"""
-selects all rows continuously. the last colon is used to fetch and populate all the data in the data frames
-Run code: it should output data in rows continuously from row 0 to row 4
-"""
+            # iterate through each song and compare with main csv file, if they match, append to 2d-array
+            for x in genre_extract.values:
+                if (song == x).all():
+                    new_array[0].append(x[0])
+                    new_array[1].append(x[1])
+                    new_array[2].append(genre_name)
 
-df_origin.loc[:4, :] # this instructs the code to fetch data from the first row to row 4
-#print(df_origin)
+    # create data frame from 2d-array
+    final_data_frame = pd.DataFrame({
+        "Artist": new_array[0],
+        "Title": new_array[1],
+        "Genre": new_array[2]
+    })
 
+    # save data frame to csv file, directory depends on country name
+    final_data_frame.to_csv(os.path.join(working_dir, f"../database/{country_name[index]}/{country_name[index]}Results.csv"))
 
-df_origin.loc[200:, :] 
-#print(df_origin)
-
-
-"""
-this instructs the code to fetch data from row 200 all the way to the last row of the data 
-can also work with columns
-"""
-df_origin.loc[:, "Artist"] #this will return the values of the artist ranking(row) against their respective name(column)
-#print(df_origin)
-
-
-df_origin.loc[:, {"Artists", "Title"}] 
-"""
-this code when run will produce an output of all rows against the artists name and the title 
-this is for columns that do not immediately follow each other
-"""
-print(df_origin)
-
-df_origin.loc[:, "artists" : "age"]
-print(df_origin)
+    # increment the index to go to the next country
+    index += 1
