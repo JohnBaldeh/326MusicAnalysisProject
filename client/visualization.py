@@ -1,5 +1,6 @@
+import matplotlib.pyplot as plt 
 import seaborn as sns #Unsure if we need to import matplotlib as well?
-import dataAnalysis
+import dataAnalysis 
 import pandas as pd
 
 # testing df:
