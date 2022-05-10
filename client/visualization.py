@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns #Unsure if we need to import matplotlib as well?
 from dataAnalysis import *
 import pandas as pd
-import matplotlib.pyplot as plt
 
 # testing df:
 data = [['artist1', 'song1', 'Country'], ['artist2', 'song2', 'Hip-Hop Rap'], ['artist3', 'song3', 'Pop'], ['artist4', 'song4', 'Dance'], ['artist5', 'song5', 'Hip-Hop Rap'], ['artist6', 'song6', 'Country']]
@@ -27,6 +26,7 @@ canada = plt.pie(canada_data, labels = labels, colors = palette_color, autopct='
 mexico = plt.pie(mexico_data, labels = labels, colors = palette_color, autopct='%.0f%%')
 united_states = plt.pie(us_data, labels = labels, colors = palette_color, autopct='%.0f%%')
 
+#show the plots (add all 3 after we get one to show properly)
 canada.show()
 
 
