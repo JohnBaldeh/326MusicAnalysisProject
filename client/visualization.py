@@ -1,33 +1,43 @@
 import matplotlib.pyplot as plt 
-import seaborn as sns #Unsure if we need to import matplotlib as well?
+import seaborn as sns
 from dataAnalysis import *
 import pandas as pd
 
 # testing df:
-data = [['artist1', 'song1', 'Country'], ['artist2', 'song2', 'Hip-Hop Rap'], ['artist3', 'song3', 'Pop'], ['artist4', 'song4', 'Dance'], ['artist5', 'song5', 'Hip-Hop Rap'], ['artist6', 'song6', 'Country']]
-testing_df = pd.DataFrame(data, columns = ['Artist', 'Title', 'Genre'])
+# data = [['artist1', 'song1', 'Country'], ['artist2', 'song2', 'Hip-Hop Rap'], ['artist3', 'song3', 'Pop'], ['artist4', 'song4', 'Dance'], ['artist5', 'song5', 'Hip-Hop Rap'], ['artist6', 'song6', 'Country']]
+# testing_df = pd.DataFrame(data, columns = ['Artist', 'Title', 'Genre'])
 
+working_dir = os.path.dirname(__file__)
 
 canada_results = pd.read_csv(os.path.join(working_dir, "database/Canada/CanadaResults.csv"))
 mexico_results = pd.read_csv(os.path.join(working_dir, "database/Mexico/MexicoResults.csv"))
 united_states_results = pd.read_csv(os.path.join(working_dir, "database/United_States/United_StatesResults.csv"))
 
-#add country's dfs to data
-canada_data = [canada_results['Genre']]
-mexico_data = [mexico_results['Genre']]
-us_data = [united_states_results['Genre']]
-labels = ['Dance', 'Hip-Hop Rap', 'Pop', 'Country']
+# #add country's dfs to data
+# canada_data = [canada_results["Genre"]]
+# mexico_data = [mexico_results["Genre"]]
+# us_data = [united_states_results["Genre"]]
+# labels = ["Dance", "Hip-Hop Rap", "Pop", "Country"]
 
-#define Seaborn color palette to use
-palette_color = sns.color_palette('bright')
+# #define Seaborn color palette to use
+# palette_color = sns.color_palette('bright')
 
-#create pie chart
-canada = plt.pie(canada_data, labels = labels, colors = palette_color, autopct='%.0f%%')
-mexico = plt.pie(mexico_data, labels = labels, colors = palette_color, autopct='%.0f%%')
-united_states = plt.pie(us_data, labels = labels, colors = palette_color, autopct='%.0f%%')
+# #create pie chart
+# canada = plt.pie(canada_data, labels = labels, colors = palette_color, autopct='%.0f%%')
+# mexico = plt.pie(mexico_data, labels = labels, colors = palette_color, autopct='%.0f%%')
+# united_states = plt.pie(us_data, labels = labels, colors = palette_color, autopct='%.0f%%')
+
+canada_occurences = canada_results['Genre'].value_counts()
+mexico_occurences = mexico_results['Genre'].value_counts()
+us_occurences = united_states_results['Genre'].value_counts()
+
+
+print(canada_occurences)
+
+canada_plot = us_occurences.plot.pie(y='Genre', figsize=(5, 5))
 
 #show the plots (add all 3 after we get one to show properly)
-canada.show()
+canada_plot.show()
 
 
 
