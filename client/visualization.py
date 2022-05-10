@@ -13,17 +13,22 @@ mexico_results = pd.read_csv(os.path.join(working_dir, "database/Mexico/MexicoRe
 united_states_results = pd.read_csv(os.path.join(working_dir, "database/United_States/United_StatesResults.csv"))
 
 #add country's dfs to data
-canada_data = [canada_results.Genre]
-mexico_data = [mexico_results.Genre]
-us_data = [united_states_results.Genre]
+canada_data = [canada_results['Genre']]
+mexico_data = [mexico_results['Genre']]
+us_data = [united_states_results['Genre']]
 labels = ['Dance', 'Hip-Hop Rap', 'Pop', 'Country']
 
 #define Seaborn color palette to use
-colors = sns.color_palette('pastel')[0:3]
+palette_color = sns.color_palette('bright')
 
 #create pie chart
-plt.pie(canada_data, labels = labels, colors = colors, autopct='%.0f%%')
-plt.show()
+canada = plt.pie(canada_data, labels = labels, colors = palette_color, autopct='%.0f%%')
+mexico = plt.pie(mexico_data, labels = labels, colors = palette_color, autopct='%.0f%%')
+united_states = plt.pie(us_data, labels = labels, colors = palette_color, autopct='%.0f%%')
+
+canada.show()
+
+
 
 # This file will be for seaborn implementation. We will create different plots to create visualizations based on the data that dataAnalysis.py generates.
 # Plan: import the 2 dataframe object variables to compare from the dataAnalysis.py file (from file.py import variableName), and create two pie charts
