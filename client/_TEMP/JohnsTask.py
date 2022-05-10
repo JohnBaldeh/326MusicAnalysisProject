@@ -76,3 +76,4 @@ for country in countries:
 
     # increment the index to go to the next country
     index += 1
+	
