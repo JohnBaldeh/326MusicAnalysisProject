@@ -15,3 +15,12 @@ def testMexicoResults() :
 
 def testUnitedStatesResults() :
 	assert united_states_results.iloc[99,3] == 'Hip-Hop Rap'
+
+def testCanadaResults2():
+	assert canada_results.iloc[48, 3] == "Dance"
+
+def testMexicoResults2():
+	assert mexico_results.iloc[30, 3] == "Hip-Hop Rap"
+
+def testUnitedStatesResults2():
+	assert mexico_results.iloc[14, 3] == "Pop"
