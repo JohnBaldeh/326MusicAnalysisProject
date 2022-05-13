@@ -2,6 +2,7 @@ import os
 from dataAnalysis import *
 from visualization import *
 
+#read data from the CSV files crdits (Results for each country)
 canada_results = pd.read_csv(os.path.join(working_dir, "database/Canada/CanadaResults.csv"))
 mexico_results = pd.read_csv(os.path.join(working_dir, "database/Mexico/MexicoResults.csv"))
 united_states_results = pd.read_csv(os.path.join(working_dir, "database/United_States/United_StatesResults.csv"))
