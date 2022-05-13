@@ -26,14 +26,12 @@ working_dir = os.path.dirname(__file__)
 # mexico = plt.pie(mexico_data, labels = labels, colors = palette_color, autopct='%.0f%%')
 # united_states = plt.pie(us_data, labels = labels, colors = palette_color, autopct='%.0f%%')
 
-
 class PiePlot :
 
-	def __init__(self, df, countryName, colName, figSize = (5,5)) :
+	def __init__(self, countryName, colName, figSize = (5,5)) :
 		""" Initializes the attributes of a plot.
 		"""
 		
-		df = self.df
 		countryName = self.countryName
 		colName = self.colName
 		figSize = self.figSize
@@ -45,7 +43,7 @@ class PiePlot :
 	# mexico_occurences = mexico_results['Genre'].value_counts()
 	# us_occurences = united_states_results['Genre'].value_counts()
 		instances = ((working_dir, f"database/{countryObject.country_name[index]}/countryObject.{country_name[index]}Results.csv")[countryObject.colName].value_counts())
-		return instances
+		return instances[1]
 
 	def makePlot(instances, figSize) :
 		""" Creates a pie plot with the integer instances of each genre appearing in the top 200 songs. DOES NOT WORK YET***
@@ -76,4 +74,4 @@ def main(colName) :
 	unitedStatesPlot = PiePlot.makePlot(united_states_count, (5, 5))
 
 
-main('Genre', (5, 5))
+main('Genre')
